@@ -12,7 +12,6 @@
 ## THE SAMPLE - ADMISSION RATE CALCULATOR ##
 
 import sys
-import os
 
 ver = "0.1"
 
