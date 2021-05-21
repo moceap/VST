@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
-#########################
-# UPM Python Tester 0.1 #
-# By                    #
-# Mosaab Alzoubi        #
-# Mohammad Bayazid      #
-# Khaled Redhwan        #
-# Moayad Shbair         #
-#########################
+##########################
+# Very Simple Tester 0.1 #
+# By                     #
+# Mosaab Alzoubi         #
+# Mohammad Bayazid       #
+# Khaled Redhwan         #
+# Moayad Shbair          #
+##########################
 
 ## THE SAMPLE - ADMISSION RATE CALCULATOR ##
 
