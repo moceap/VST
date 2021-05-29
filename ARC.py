@@ -42,14 +42,16 @@ print("Your Cumulative AR is: "+ str(cumulativeAR))
 
 if (cumulativeAR > 90):
 	print("You can register in College of Engineering, College of Computer Science, and College of Business Management")
+	quit()
 
 if (cumulativeAR > 80):
 	print("You can register in College of Computer Science and College of Business Management")
+	quit()
 
 if (cumulativeAR > 70):
 	print("You can only register in College of Business Management")
+	quit()
 
 if (cumulativeAR <= 70):
 	print("Sorry, your AR does not allow you to register in any of our programs")
-
-print("Good Luck!")
+	quit()
