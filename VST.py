@@ -12,7 +12,7 @@ if len(sys.argv) < 2:
 	quit()
 	
 infile = sys.argv[1]
-outfile = os.getcwd() + infile + 'TMP.py'
+outfile = os.getcwd() + '//' + infile + 'TMP.py'
 attributes = ' '.join(sys.argv[2:])
 linenumbers = 0
 if os.path.exists(outfile):
