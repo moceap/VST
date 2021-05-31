@@ -57,7 +57,7 @@ with subprocess.Popen(attrs, stdout=subprocess.PIPE) as proc:
 	#print(proc.stdout.read().decode("utf-8"))
 	ranlines = int([i for i in proc.stdout.read().decode("utf-8").split('\n') if i][-1])
 
-print("RAN CONDITIONS: " + str(ranlines))
-print("ALL CONDITIONS: " + str(linenumbers))
+print("RAN DICISIONS: " + str(ranlines))
+print("ALL DICISIONS: " + str(linenumbers * 2))
 print("RATIO: " + str(ranlines/linenumbers))
 os.remove(outfile)
