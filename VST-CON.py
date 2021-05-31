@@ -59,5 +59,5 @@ with subprocess.Popen(attrs, stdout=subprocess.PIPE) as proc:
 
 print("RAN DICISIONS: " + str(ranlines))
 print("ALL DICISIONS: " + str(linenumbers * 2))
-print("RATIO: " + str(ranlines/linenumbers))
+print("RATIO: " + str(ranlines/(linenumbers * 2)))
 os.remove(outfile)
